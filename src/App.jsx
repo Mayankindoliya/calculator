@@ -1,10 +1,14 @@
-import React from 'react'
-import Header from './components/Header'
+import React from "react";
+import Header from "./components/Header";
+import UserInput from "./components/UserInput";
 
 const App = () => {
   return (
-    <Header />
-  )
-}
+    <>
+      <Header />
+      <UserInput />
+    </>
+  );
+};
 
-export default App
+export default App;
