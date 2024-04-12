@@ -13,11 +13,11 @@ const App = () => {
     duration: 10,
   });
 
-  function handleChange(inputIdentifier, value) {
+  function handleChange(inputIdentifier, newValue) {
     setUserInput((prevUserInput) => {
       return {
         ...prevUserInput,
-        [inputIdentifier]: value,
+        [inputIdentifier]: +newValue,
       };
     });
   }
